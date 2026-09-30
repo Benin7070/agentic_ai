@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+sse-starlette
+pydantic
+langchain
+langchain-openai
+langchain-anthropic

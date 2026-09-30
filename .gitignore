@@ -1,0 +1,58 @@
+# ==============================================================================
+# Git Ignore for AgentNet MAS (Autonomous Multi-Agent Credit Decisioning)
+# ==============================================================================
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Python Virtual Environments (Do NOT commit virtual environments)
+.venv/
+.venv*/
+venv/
+ENV/
+env/
+backend/.venv/
+backend/.venv311/
+backend/venv/
+
+# Secrets, Credentials & Local Config
+.env
+.env.*
+!.env.example
+*.local
+backend/api_keys.json
+
+# Node & Frontend Dependencies and Build Outputs
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Temporary & Log Files
+logs/
+*.log
+
+# Editor & OS Metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.sw?
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# User Safe / Backup Directory
+safe/
+

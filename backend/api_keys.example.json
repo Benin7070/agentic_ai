@@ -1,0 +1,16 @@
+{
+  "keys": [
+    {
+      "id": "sample_key_01",
+      "name": "sample_openai_key",
+      "provider": "openai",
+      "apiKey": "sk-proj-YOUR_OPENAI_API_KEY_HERE",
+      "created": "2026-09-30T12:00:00.000Z"
+    }
+  ],
+  "active": {
+    "provider": "openai",
+    "apiKey": "sk-proj-YOUR_OPENAI_API_KEY_HERE",
+    "configName": "sample_openai_key"
+  }
+}
